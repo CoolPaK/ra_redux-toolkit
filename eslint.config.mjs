@@ -28,7 +28,7 @@ export default [
         { allowConstantExport: true },
       ],
     },
-    ignorePatterns: ["**/*.css"],
+    ignores: ["**/*.css"],
   },
   {
     files: ["**/*.ts", "**/*.tsx"],
