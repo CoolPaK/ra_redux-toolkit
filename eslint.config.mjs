@@ -28,6 +28,7 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    ignorePatterns: ["**/*.css"],
   },
   {
     files: ["**/*.ts", "**/*.tsx"],
@@ -46,13 +47,6 @@ export default [
     files: ["**/*.jsx", "**/*.js"],
     rules: {
       // Правила для JavaScript и React
-    },
-  },
-  {
-    files: ["**/*.css"],
-    rules: {
-      "no-unused-vars": "off",
-      "no-undef": "off",
     },
   },
 ];
