@@ -9,7 +9,7 @@ import axios from "axios";
 
 const token = import.meta.env.VITE_TOKEN_OMDB;
 const connect = axios.create({
-  baseURL: `http://www.omdbapi.com/?apikey=${token}&`,
+  baseURL: `https://www.omdbapi.com/?apikey=${token}&`,
 });
 
 const initialState: DataState = {
